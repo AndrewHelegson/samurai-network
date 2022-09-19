@@ -1,0 +1,23 @@
+.nav {
+    grid-area: n;
+    background-color: rgba(0, 133, 182, 0.7);
+    padding: 10px;
+}
+
+.item {
+    text-decoration: none;
+    color: white;
+}
+
+.activeLink {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(163, 51, 113);
+}
+
+
+
+/* такая запись тоже самое что выше - если потом в жсх мы через пробел указываем два стиля  */
+/* .active{
+    font-weight:100;
+} */

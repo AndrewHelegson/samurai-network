@@ -1,0 +1,26 @@
+.header {
+   grid-area: h;
+   background-color: aqua;
+   /*background-color: #7fc6c6;*/
+}
+
+.header img {
+   width: 70px;
+}
+
+.loginBlockIsAuth {
+   /*float: left;*/
+   margin-left: 15px;
+   font-weight: bold;
+   color: #4f4fe5
+}
+
+.loginBlockNotAuth {
+   margin-left: 15px;
+   font-weight: bold;
+   color: #ef5050;
+}
+
+/*.loginBlock a {*/
+/*   color: #4f4fe5;*/
+/*}*/
