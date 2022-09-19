@@ -1,7 +1,7 @@
 {
   "name": "my-social-network-kamasutra",
   "version": "0.1.0",
-  "homepage": "https://andrewhelegson.github.io/demo-socialNetwork/",
+  "homepage": "http://AndrewHelegson.github.io/samurai-network",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
