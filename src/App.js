@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
@@ -28,7 +28,7 @@ class App extends React.Component {
 
 
       return (
-         <BrowserRouter basename={process.env.PUBLIC_URL} >
+         <HashRouter basename={process.env.PUBLIC_URL} >
 
             <div className='app-wrapper'>
                <HeaderContainer />
@@ -65,7 +65,7 @@ class App extends React.Component {
                </div>
 
             </div>
-         </BrowserRouter>
+         </HashRouter>
       );
    }
 }
